@@ -1,0 +1,48 @@
+{
+	"_comment":"<datArg> controls the arguments for input data table and <plotArg> controls the arguments for the output plot",	
+	"dataArg":{
+		"_comment":"需要指定数据",
+		"time":"time",
+		"event":"event",
+		"riskscore":"riskscore"
+	},
+	"general":{
+		"size":{
+			"_comment":"控制图形大小，宽 * 高",
+			"width":8,
+			"height":6
+		},
+
+	},
+	"extra":{
+		"show_Heatmap":false,//布朗逻辑类型
+		"size.points":2,
+        "size.dashline":1,
+        "High_color":"red",
+        "Low_color":"blue",
+        "gene_high":"red",
+        "gene_middle":"white",
+        "gene_low":"blue",
+		"cutoff":"median"//下拉选项 c("median","roc","cutoff")
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
